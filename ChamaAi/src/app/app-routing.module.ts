@@ -16,6 +16,10 @@ const routes: Routes = [
     loadChildren: () => import('./servico/tab1/tab1.module').then(m => m.Tab1PageModule)
   },
   {
+    path: 'tabs3',
+    loadChildren: () => import('./servico/tab3/tab3.module').then(m => m.Tab3PageModule)
+  },
+  {
     path: 'registro',
     loadChildren: () => import('./telasIniciais/registro/registro.module').then(m => m.RegistroPageModule)
   },
